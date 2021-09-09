@@ -50,7 +50,9 @@ describe('Content Type Builder - Content types', () => {
         url: '/content-type-builder/content-types',
         body: {
           contentType: {
-            name: 'Test Collection Type',
+            displayName: 'Test Collection Type',
+            singularName: 'test-collection-type',
+            pluralName: 'test-collection-types',
             pluginOptions: {
               i18n: {
                 localized: true,
@@ -134,7 +136,9 @@ describe('Content Type Builder - Content types', () => {
         body: {
           contentType: {
             kind: 'singleType',
-            name: 'Test Single Type',
+            displayName: 'Test Single Type',
+            singularName: 'test-single-type',
+            pluralName: 'test-single-types',
             pluginOptions: {
               i18n: {
                 localized: true,

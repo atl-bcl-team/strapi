@@ -17,41 +17,20 @@ Object {
       },
       "collectionName": "test_collection_types",
       "description": "",
+      "displayName": "Test Collection Type",
       "draftAndPublish": false,
       "kind": "collectionType",
-      "name": "Test Collection Type",
       "pluginOptions": Object {
         "i18n": Object {
           "localized": true,
         },
       },
+      "pluralName": "test-collection-types",
       "restrictRelationsTo": null,
+      "singularName": "test-collection-type",
       "visible": true,
     },
     "uid": "api::test-collection-type.test-collection-type",
-  },
-}
-`;
-
-exports[`Content Type Builder - Content types Collection Types Get collection type returns full schema and informations with draftAndPublish 1`] = `
-Object {
-  "data": Object {
-    "apiID": "ct-with-dp",
-    "schema": Object {
-      "attributes": Object {
-        "title": Object {
-          "type": "string",
-        },
-      },
-      "collectionName": "ct_with_dps",
-      "description": "",
-      "draftAndPublish": true,
-      "kind": "collectionType",
-      "name": "CT with DP",
-      "restrictRelationsTo": null,
-      "visible": true,
-    },
-    "uid": "api::ct-with-dp.ct-with-dp",
   },
 }
 `;
@@ -73,15 +52,17 @@ Object {
       },
       "collectionName": "test_single_types",
       "description": "",
+      "displayName": "Test Single Type",
       "draftAndPublish": false,
       "kind": "singleType",
-      "name": "Test Single Type",
       "pluginOptions": Object {
         "i18n": Object {
           "localized": true,
         },
       },
+      "pluralName": "test-single-types",
       "restrictRelationsTo": null,
+      "singularName": "test-single-type",
       "visible": true,
     },
     "uid": "api::test-single-type.test-single-type",
